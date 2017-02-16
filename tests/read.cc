@@ -37,7 +37,7 @@ void print_faces<std::vector<uint32_t>>(const std::vector<uint32_t>& faces, int 
 		for (size_t i = 0; i < faces.size()/n; i++)
 		{
 			std::cout << "f" << i << ": ";
-			for (size_t j = 0; j < n; ++j)
+            for (int j = 0; j < n; ++j)
 			{
 				if (j > 0) std::cout << " ";
 				std::cout << faces[i*n + j];
