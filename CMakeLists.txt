@@ -8,7 +8,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 project(tinyply LANGUAGES CXX)
 set(PROJECT_VERSION 0.1)
 
-include_directories("${CMAKE_SOURCE_DIR}/source")
 
 # Library
 add_library(tinyply source/tinyply.cpp)
