@@ -135,9 +135,9 @@ namespace tinyply
 		{ PlyProperty::Type::INT8,{ sizeof(std::vector<char>), "char" } },
 		{ PlyProperty::Type::UINT8,{ sizeof(std::vector<unsigned char>), "uchar" } },
 		{ PlyProperty::Type::INT16,{ sizeof(std::vector<short>), "short" } },
-		{ PlyProperty::Type::UINT16,{ sizeof(std::vector<ushort>), "ushort" } },
+		{ PlyProperty::Type::UINT16,{ sizeof(std::vector<unsigned short>), "ushort" } },
 		{ PlyProperty::Type::INT32,{ sizeof(std::vector<int>), "int" } },
-		{ PlyProperty::Type::UINT32,{ sizeof(std::vector<uint>), "uint" } },
+		{ PlyProperty::Type::UINT32,{ sizeof(std::vector<unsigned int>), "uint" } },
 		{ PlyProperty::Type::FLOAT32,{ sizeof(std::vector<float>), "float" } },
 		{ PlyProperty::Type::FLOAT64,{ sizeof(std::vector<double>), "double" } },
 		{ PlyProperty::Type::INVALID,{ 0, "INVALID" } }
